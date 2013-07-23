@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A2E4547C-365A-4409-B0EB-73E8D3BAA009}</ProjectGuid>
+    <RootNamespace>XGUI</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>.\include;.\SDL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>.\SDL\lib;.\XGUI\SDL\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <PreprocessKeepComments>false</PreprocessKeepComments>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDLmain.lib;SDL.lib;SDL_ttf.lib;SDL_gfx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\gui\main.cpp" />
+    <ClCompile Include="src\gui\XAbstractWidegt.cpp" />
+    <ClCompile Include="src\gui\XApplication.cpp" />
+    <ClCompile Include="src\gui\XButton.cpp" />
+    <ClCompile Include="src\gui\XCheckBox.cpp" />
+    <ClCompile Include="src\gui\XDialog.cpp" />
+    <ClCompile Include="src\gui\XEditBox.cpp" />
+    <ClCompile Include="src\gui\XFont.cpp" />
+    <ClCompile Include="src\gui\XFrame.cpp" />
+    <ClCompile Include="src\gui\XHBoxLayout.cpp" />
+    <ClCompile Include="src\gui\XItem.cpp" />
+    <ClCompile Include="src\gui\XLabel.cpp" />
+    <ClCompile Include="src\gui\XLayout.cpp" />
+    <ClCompile Include="src\gui\XListBox.cpp" />
+    <ClCompile Include="src\gui\XMessageBox.cpp" />
+    <ClCompile Include="src\gui\XPopMenu.cpp" />
+    <ClCompile Include="src\gui\XRadioButton.cpp" />
+    <ClCompile Include="src\gui\XToolTip.cpp" />
+    <ClCompile Include="src\gui\XVBoxLayout.cpp" />
+    <ClCompile Include="src\gui\XVScrollbar.cpp" />
+    <ClCompile Include="src\gui\XWidget.cpp" />
+    <ClCompile Include="src\util\XObject.cpp" />
+    <ClCompile Include="src\util\XStringArray.cpp" />
+    <ClCompile Include="src\util\XUseful.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\XAbstractWidegt.h" />
+    <ClInclude Include="include\XApplication.h" />
+    <ClInclude Include="include\XArray.h" />
+    <ClInclude Include="include\XButton.h" />
+    <ClInclude Include="include\XCheckBox.h" />
+    <ClInclude Include="include\XDialog.h" />
+    <ClInclude Include="include\XEditBox.h" />
+    <ClInclude Include="include\XEventType.h" />
+    <ClInclude Include="include\XFont.h" />
+    <ClInclude Include="include\XFrame.h" />
+    <ClInclude Include="include\XHBoxLayout.h" />
+    <ClInclude Include="include\XIndexListener.h" />
+    <ClInclude Include="include\XItem.h" />
+    <ClInclude Include="include\XKeyListener.h" />
+    <ClInclude Include="include\XLabel.h" />
+    <ClInclude Include="include\XLayout.h" />
+    <ClInclude Include="include\XList.h" />
+    <ClInclude Include="include\XListBox.h" />
+    <ClInclude Include="include\XMessageBox.h" />
+    <ClInclude Include="include\XMouseListener.h" />
+    <ClInclude Include="include\XObject.h" />
+    <ClInclude Include="include\XPopMenu.h" />
+    <ClInclude Include="include\XRadioButton.h" />
+    <ClInclude Include="include\XStax.h" />
+    <ClInclude Include="include\XStringArray.h" />
+    <ClInclude Include="include\XTextListener.h" />
+    <ClInclude Include="include\XToolTip.h" />
+    <ClInclude Include="include\XUseful.h" />
+    <ClInclude Include="include\XUtils.h" />
+    <ClInclude Include="include\XVBoxLayout.h" />
+    <ClInclude Include="include\XVScrollbar.h" />
+    <ClInclude Include="include\XWidget.h" />
+    <ClInclude Include="include\XWidgetListener.h" />
+    <ClInclude Include="include\XWindowListener.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

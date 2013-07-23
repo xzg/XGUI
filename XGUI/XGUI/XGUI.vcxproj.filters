@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\gui">
+      <UniqueIdentifier>{42fb93f5-167f-4ba9-b3a7-d71a0b8255ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{2e22eaab-8c71-4695-b142-24c0146b043b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\gui\XAbstractWidegt.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XApplication.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XButton.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XCheckBox.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XDialog.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XEditBox.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XFont.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XFrame.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XHBoxLayout.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XItem.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XLabel.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XLayout.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XListBox.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XMessageBox.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XPopMenu.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XRadioButton.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XToolTip.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XVBoxLayout.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XVScrollbar.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\XWidget.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\XUseful.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\XObject.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\XStringArray.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\main.cpp">
+      <Filter>源文件\gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\XAbstractWidegt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XApplication.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XCheckBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEditBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEventType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XHBoxLayout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XIndexListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XLabel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XLayout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XListBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XMessageBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XMouseListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XPopMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XRadioButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XStax.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XStringArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XTextListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XToolTip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XUseful.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XVBoxLayout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XVScrollbar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XWidget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XWidgetListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XWindowListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XKeyListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
